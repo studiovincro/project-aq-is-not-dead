@@ -1,0 +1,30 @@
+{
+  "name": "newsletter-extractor",
+  "version": "1.0.0",
+  "description": "LLM-based music newsletter content extraction using GitHub Copilot and Vercel AI SDK",
+  "main": "newsletter-extractor.js",
+  "scripts": {
+    "start": "node newsletter-extractor.js",
+    "process": "node -e \"require('./newsletter-extractor.js').main()\"",
+    "test": "node test-extractor.js"
+  },
+  "dependencies": {
+    "ai": "^4.0.0",
+    "@ai-sdk/openai": "^1.0.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0"
+  },
+  "keywords": [
+    "llm",
+    "extraction",
+    "newsletter",
+    "music",
+    "ai",
+    "github-copilot",
+    "vercel-ai-sdk"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
